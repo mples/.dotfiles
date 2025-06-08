@@ -7,7 +7,8 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 config = {
 	default_cursor_style = "SteadyBar",
-	color_scheme = "Dracula (base16)",
+	--color_scheme = "Dracula (base16)",
+	color_scheme = "Nord (Gogh)",
 	automatically_reload_config = true,
 	window_close_confirmation = "NeverPrompt",
 	-- window_decorations = "RESIZE",
