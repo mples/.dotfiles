@@ -43,4 +43,5 @@ require('lazy').setup {
     require 'plugins.autoformat',
     require 'plugins.alpha',
     require 'plugins.mini',
+    require 'plugins.java',
 }
