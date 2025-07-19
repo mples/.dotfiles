@@ -2,6 +2,9 @@ export PATH="$PATH:/snap/bin"
 export PATH="$PATH:/home/mateusz/.local/bin"
 unsetopt LIST_BEEP
 
+
+alias l="ls -hal"
+
 #Starship
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
