@@ -24,6 +24,9 @@ vim.keymap.set('n', '<leader>sn', '<cmd>noautocmd w <CR>', opts)
 -- or just use <C-\><C-n> to exit terminal mode
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
+-- Unbind c-f in insert mode
+vim.keymap.set({ 'i', 'n' }, '<C-f>', '<NOP>', { noremap = true, silent = true })
+vim.keymap.set({ 'i', 'n' }, '<C-e>', '<NOP>', { noremap = true, silent = true })
 -- quit file
 vim.keymap.set('n', '<C-q>', '<cmd> q <CR>', opts)
 

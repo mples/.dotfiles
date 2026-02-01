@@ -30,18 +30,17 @@ rtp:prepend(lazypath)
 require('lazy').setup {
     require 'plugins.neotree',
     require 'plugins.colortheme',
-    require 'plugins.bufferline',
     require 'plugins.other',
     require 'plugins.gitsigns',
     require 'plugins.which-key',
-    require 'plugins.lualine',
     require 'plugins.treesitter',
     require 'plugins.telescope',
     require 'plugins.lazydev',
     require 'plugins.lsp',
     require 'plugins.autocompletion',
     require 'plugins.autoformat',
-    require 'plugins.alpha',
     require 'plugins.mini',
     require 'plugins.java',
 }
+require 'plugins.statusline'
+vim.opt.statusline = '%{%v:lua.require("plugins.statusline").render()%}'
