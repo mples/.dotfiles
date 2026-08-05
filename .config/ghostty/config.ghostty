@@ -1,0 +1,16 @@
+# Font Settings
+font-family = "JetBrains Mono"
+# font-style = Bold
+font-size = 12.5
+
+# Cursor Style
+cursor-style = bar
+cursor-style-blink = false
+
+# Theme
+theme = TokyoNight Night
+
+# Window & Padding
+window-padding-x = 3
+window-padding-y = 0
+confirm-close-surface = false

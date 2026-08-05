@@ -23,6 +23,8 @@ function fish_prompt
     echo -n ' > '
     set_color normal
 end
-eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+alias l="ls -lha"
+alias ls="ls -lha"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"
